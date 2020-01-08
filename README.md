@@ -1,1 +1,10 @@
-# thesis_stratigraphy_prediction_2019
+# Machine learning for automated stratigraphy classification
+
+## Abstract
+This thesis explored to what extent different supervised machine learning algorithms can be used to label subsurface formations in wells. It was explored through empirical study using wireline logs from the Johan Sverdrup field as inputs. The results from three different machine learning models were compared with the addition of a benchmark model; two LightGBM models, one LSTM model and a Logistic Regression model as a benchmark. The data set consisted of 31 wells in the Johan Sverdrup field with a total of 406 666 labeled observations and the corresponding measured properties at different depth points in the wells.
+
+The two LightGBM models both performed better than the benchmark. The results obtained from the neural network were significantly worse than both LightGBM models and the benchmark. Due to time- and computational constraints, we were not able to fully utilize the potential of the neural network (LSTM). Hence, additional tuning and model stacking could potentially lead to improved results. 
+
+The best performing model was LightGBM 2, the model that utilized a stratified training- and validation split. Here, sequential observations from the same well were randomly split across the training- and validation data. This model yielded an accuracy of 79.17%. However, this model overfitted significantly to the training- and validation data. Further, LightGBM 1, the model that utilized a customized stratified training- and validation split, had a slightly lower accuracy of 77.58%. Here, all sequential observations from the same well were kept in the same data set, which caused significantly less overfitting to the training- and validation data. Based on this, we concluded that out of the models tested in the thesis, LightGBM 1 had the highest potential to generalize on unseen data.
+
+The classification accuracy of around 80%, and the insight gained from the interpretable machine learning method, can be of great contribution and create significant value to experts currently performing the labeling of the formations in a manual fashion.
