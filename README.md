@@ -10,7 +10,7 @@
 
 This thesis was written as a part of the Master of Science in Economics and Business Administration, with a major in Business Analytics, at the Norwegian School of Economics (NHH). It is written with the intent that it should be both intuitive and insightful for decision-makers working in the drilling industry with little ML knowledge, and for technically skilled individuals with less domain knowledge.
 
-The content posted in this repository is not meant to be directly implemented in its current form, but rather to be used as an inspiration to further research on the topic of ML and labeling of sedimentary rocks. The data sets we used to train our models are not made public due to copyright restrictions.
+The content posted in this repository is not meant to be directly implemented in its current form, but rather to be used as an inspiration to further research on the topic of ML and labeling of sedimentary rocks. The data sets used to train our models are not made public due to copyright restrictions.
 
 This is only a short summary of our thesis where the most interesting results and findings are included. The complete thesis can be found in the repository under the name 
 ["Machine learning for automated stratigraphy classification.pdf"](https://github.com/pro-well-plan/thesis_stratigraphy_prediction_2019/blob/master/Machine%20learning%20for%20automated%20stratigraphy%20classification.pdf)
